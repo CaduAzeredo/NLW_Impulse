@@ -32,7 +32,7 @@ export function WidgetNetworks() {
       };
 
     return (
-        <div className="bg-zinc-900 p-4 rounded-2xl mb-4 flex flex-col w-[cal(100vh-2rem)] w-64 items-center shadow-lg">
+        <div className="bg-zinc-900 p-4 rounded-2xl mb-4 flex flex-col w-64 items-center shadow-lg">
             <header>
                 <span className="flex text-xl leading-6">Clique e Conecte</span>
                 <CloseButton />

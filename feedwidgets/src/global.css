@@ -3,5 +3,10 @@
 @tailwind utilities;
 
 body {
-    @apply bg-[url('./assets/retro-wave-4k.jpg')] bg-cover text-zinc-100
+    @apply bg-[url('./assets/retro-wave.jpg')] 
+    bg-cover
+    bg-fixed
+    bg-no-repeat
+    bg-center
+    text-zinc-100
 }
