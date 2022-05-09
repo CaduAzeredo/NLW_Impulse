@@ -7,6 +7,7 @@ import thoughtImageUrl from '../../assets/thought.svg';
 import { FeedbackTypeStep } from "./Steps/FeedbackTypeStep";
 import { FeedbackContentStep } from "./Steps/FeedbackContentStep";
 import { FeedbackSuccessStep } from "./Steps/FeedbackSuccessStep";
+import { Footer } from "../Footer";
 
 export const feedbackTypes = {
   BUG: {
@@ -68,9 +69,7 @@ export function WidgetForm() {
       )}
 
 
-      <footer className="text-xs text-neutral-400">
-        Feito com ♥ pela <a href="https://rocketseat.com.br" className="underline underline-offset-2">Rocketseat</a>
-      </footer>
+      <Footer />
     </div>
   )
 }
